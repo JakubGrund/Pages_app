@@ -1,0 +1,114 @@
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.main-box {
+  width: 1008px;
+  height: 672px;
+  background-color: #202940;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  margin: 0px;
+  text-align: center;
+  padding-top: 80px;
+  font-size: 34px;
+}
+
+p {
+  font-size: 16px;
+  text-align: center;
+  opacity: 0.75;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.li-text {
+  opacity: 0.75;
+  max-width: 462px;
+}
+
+.flex-start {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 208px;
+  height: 128px;
+}
+
+.li-img {
+  padding-right: 5px;
+  width: 48px;
+  padding: 0px;
+}
+
+button {
+  width: 141px;
+  height: 48px;
+  margin-top: 40px;
+  background-color: #018934;
+  color: #fff;
+  font-size: 15px;
+  text-transform: uppercase;
+  border: 0px;
+  cursor: pointer;
+}
+
+.display-none {
+  display: none;
+}
+
+img {
+  padding: 50px;
+}
+
+.zmizeni {
+  display: none;
+}
+
+.dot:hover {
+  cursor: pointer;
+}
+
+
+.dot {
+  height: 10px;
+  width: 10px;
+  border: 2px solid #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 5px;
+}
+
+.dots {
+  position: absolute;
+  top: 624px;
+  left: 480px;
+}
+
+.full-dot {
+  background-color: #bbb;
+}
